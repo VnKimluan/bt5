@@ -1,0 +1,105 @@
+#menu{
+    position: sticky;
+    background-color: orangered;
+    border-radius: 8px;
+    width: 100%;
+    height: 30%;
+    z-index: 999;
+    top:0;
+}
+
+#menu ul{
+    list-style-type:none ;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul li {
+    color: aliceblue;
+    display: inline-block;
+    margin-left:10px;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    border-radius: 8px;
+    background-color: rgb(224, 203, 203)
+}
+
+.box ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.box1{
+    position: absolute;
+    border-radius: 8px;
+    width: 90px;
+    height: 60px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 60px;
+}
+
+.color1{
+    top:0;
+    left:0;
+    background-color: rgb(255, 0, 212);
+}
+.color2{
+    top: 10px;
+    right: 10px;
+    background-color: brown;
+}
+.color3{
+    bottom: 10px;
+    right: 10px;
+    background-color:rgb(0, 255, 94);
+}
+.color4{
+    bottom: 0px;
+    left: 10px;
+    background-color: blueviolet;
+}
+
+.div1{
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(112, 112, 232);
+    padding: 20px 30px;
+    margin-top: 20px ;
+    overflow: hidden;
+}
+
+.paragrap::before{
+    content:"";
+    position: absolute;
+    background-color: rgba(117, 105, 105, 0.383);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.paragrap::first-line{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.paragrap::first-letter{
+    text-transform: uppercase;
+}
+
+.paragrap::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(117, 105, 105, 0.383);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    bottom: -20px;
+    right: -30px;
+}
